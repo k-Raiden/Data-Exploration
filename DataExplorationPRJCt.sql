@@ -8,7 +8,7 @@ Where location like 'Burundi%'
 Select Location,date,total_cases,new_cases,total_deaths,population from DataPortfolioDb..CovidTab1
 Where location like 'Rwanda%'
 
---Shows the likelyhood of Covid-19 if you live in those Country.
+--Shows the likelyhood of dying from Covid-19 if you live in those Country.
 
 SELECT Location, Date, Total_Cases, Total_Deaths,
     CASE
